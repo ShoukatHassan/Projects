@@ -1,0 +1,69 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    text-align: center;
+   padding-top: 25px;
+}   
+.maincontainer{
+    position: relative;
+    display: flex;
+    padding-left: 20%;
+}
+
+form{
+    width: 25%;
+    min-height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px lightgrey;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+form img{
+    width: 200px;
+    height: 100px;
+    padding: 10px;    
+}
+form input{
+    width: 90%;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 10px;
+    text-align: center;   
+}
+.btn{
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(23, 64, 187);
+    color: white;
+    font-weight: 10px;
+}
+.fa-brands{
+    color: blue;    
+}
+.forgotten{
+    padding-bottom: 15px;
+}
+span{
+    text-decoration: none;
+}
+.end{
+    padding-bottom: 15px;
+}
+.two{
+    height: 450px;
+}
